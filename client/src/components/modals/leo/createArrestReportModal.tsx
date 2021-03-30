@@ -67,7 +67,7 @@ const CreateArrestReportModal: React.FC<Props> = ({
       value: postal,
     },
     {
-      type: "text",
+      type: "textarea",
       id: "arrest_report_notes",
       label: lang.global.notes,
       onChange: (e) => setNotes(e.target.value),

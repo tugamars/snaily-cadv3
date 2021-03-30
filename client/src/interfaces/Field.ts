@@ -1,5 +1,5 @@
 interface Field {
-  type: "text" | "email" | "file";
+  type: "text" | "email" | "file" | "textarea";
   value: string;
   onChange: (e: any) => void;
   label: string;
