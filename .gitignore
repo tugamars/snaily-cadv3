@@ -24,3 +24,14 @@ server/public/bleeter-images/*
 .vscode
 
 data.json
+.idea/deployment.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/modules.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/snaily-cadv3.iml
+.idea/vcs.xml
+package-lock.json
+server/config.example.ts
+package-lock.json
+server/config.example.ts
