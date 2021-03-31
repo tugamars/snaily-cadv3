@@ -36,3 +36,4 @@ server/config.example.ts
 package-lock.json
 server/config.example.ts
 client/src/language.json
+client/src/language.json
