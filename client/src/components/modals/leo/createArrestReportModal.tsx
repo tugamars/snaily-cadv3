@@ -65,14 +65,7 @@ const CreateArrestReportModal: React.FC<Props> = ({
       label: lang.record.postal,
       onChange: (e) => setPostal(e.target.value),
       value: postal,
-    },
-    {
-      type: "textarea",
-      id: "arrest_report_notes",
-      label: lang.global.notes,
-      onChange: (e) => setNotes(e.target.value),
-      value: notes,
-    },
+    }
   ];
 
   return (
@@ -116,6 +109,18 @@ const CreateArrestReportModal: React.FC<Props> = ({
               </div>
             );
           })}
+          <div className="mt-3" id="note">
+            <label style={{ fontSize: "1.0rem" }} htmlFor="note">
+              {lang.global.notes}
+            </label>
+            <textarea
+              id="note"
+              value={notes}
+              onChange={(e) => setNotes(e.currentTarget.value)}
+              className="form-control bg-secondary border-secondary text-light"
+              rows={5}
+            ></textarea>
+          </div>
           <div className="mb-3">
             <label className="form-label">{lang.record.charges}</label>
             <Select
